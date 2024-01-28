@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d73bc50a2409b50a87ced5e6b5a70e79 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d73bc50a2409b50a87ced5e6b5a70e79" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d73bc50a2409b50a87ced5e6b5a70e79 = L.map(
+                "map_d73bc50a2409b50a87ced5e6b5a70e79",
+                {
+                    center: [36.4765259, -120.6713941],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ce1e0f3962a467b7c35afc2e2099752 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_0ce1e0f3962a467b7c35afc2e2099752.addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+    
+            var marker_1e6dbd9e4cab9e78434f1dd878ace2a0 = L.marker(
+                [34.02, -118.74],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_22c27aa183cd845e37c30b69c97c4a3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e99bc12b8b26d8bcb0d178c48c680f15 = $(`<div id="html_e99bc12b8b26d8bcb0d178c48c680f15" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 34.02, -118.74<br>Idea: ?<br>Notes: nan</div></div>`)[0];
+                popup_22c27aa183cd845e37c30b69c97c4a3a.setContent(html_e99bc12b8b26d8bcb0d178c48c680f15);
+            
+        
+
+        marker_1e6dbd9e4cab9e78434f1dd878ace2a0.bindPopup(popup_22c27aa183cd845e37c30b69c97c4a3a)
+        ;
+
+        
+    
+    
+            var marker_b5197124f0e90b3381d677552ea8e144 = L.marker(
+                [36.56, -118.69],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_0c4929a44089cb92a0fcd83e2646f8d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a833953e9bbce8544304007c74fc87c = $(`<div id="html_3a833953e9bbce8544304007c74fc87c" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 36.56, -118.69<br>Idea: Sequoia National Forest<br>Notes: Some famous tree, hugging? :P</div></div>`)[0];
+                popup_0c4929a44089cb92a0fcd83e2646f8d7.setContent(html_3a833953e9bbce8544304007c74fc87c);
+            
+        
+
+        marker_b5197124f0e90b3381d677552ea8e144.bindPopup(popup_0c4929a44089cb92a0fcd83e2646f8d7)
+        ;
+
+        
+    
+    
+            var marker_caee0cacb1765b69bc2988cac4c99f47 = L.marker(
+                [36.36, -119.17],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_ae9b92274ebe3d8c4a3d3512ba927770 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e955014545e1f7fafec8284ba2883f4a = $(`<div id="html_e955014545e1f7fafec8284ba2883f4a" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 36.36, -119.17<br>Idea: Sequoia National Forest<br>Notes: nan</div></div>`)[0];
+                popup_ae9b92274ebe3d8c4a3d3512ba927770.setContent(html_e955014545e1f7fafec8284ba2883f4a);
+            
+        
+
+        marker_caee0cacb1765b69bc2988cac4c99f47.bindPopup(popup_ae9b92274ebe3d8c4a3d3512ba927770)
+        ;
+
+        
+    
+    
+            var marker_76fc1f687da1a1344166044b3b3e3013 = L.marker(
+                [36.74, -118.45],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_d75a6ab5679bbddb16aef332d92720fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43f7d6e946d9ff398884ae84829ed820 = $(`<div id="html_43f7d6e946d9ff398884ae84829ed820" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 36.74, -118.45<br>Idea: Yosemite-Nationalpark<br>Notes: Mount Whitney</div></div>`)[0];
+                popup_d75a6ab5679bbddb16aef332d92720fd.setContent(html_43f7d6e946d9ff398884ae84829ed820);
+            
+        
+
+        marker_76fc1f687da1a1344166044b3b3e3013.bindPopup(popup_d75a6ab5679bbddb16aef332d92720fd)
+        ;
+
+        
+    
+    
+            var marker_6af6a4538cf496c0ad28ff7b2170d088 = L.marker(
+                [36.58, -118.31],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_9068ad156294a1a0fc5a20ea462844d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a8642106b8772ff70b8706d4b5c3b5 = $(`<div id="html_a6a8642106b8772ff70b8706d4b5c3b5" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 36.58, -118.31<br>Idea: Yosemite-Nationalpark<br>Notes: Yosiii</div></div>`)[0];
+                popup_9068ad156294a1a0fc5a20ea462844d3.setContent(html_a6a8642106b8772ff70b8706d4b5c3b5);
+            
+        
+
+        marker_6af6a4538cf496c0ad28ff7b2170d088.bindPopup(popup_9068ad156294a1a0fc5a20ea462844d3)
+        ;
+
+        
+    
+    
+            var marker_d9b4ec6d9dd6dbf1427fc6c8b6fd8d22 = L.marker(
+                [37.67, -119.51],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_b7137829ef51376316b4682427aaf114 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b348fd0a3c1d08083f480d4da4fbaea2 = $(`<div id="html_b348fd0a3c1d08083f480d4da4fbaea2" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 37.67, -119.51<br>Idea: Yosemite-Nationalpark<br>Notes: nan</div></div>`)[0];
+                popup_b7137829ef51376316b4682427aaf114.setContent(html_b348fd0a3c1d08083f480d4da4fbaea2);
+            
+        
+
+        marker_d9b4ec6d9dd6dbf1427fc6c8b6fd8d22.bindPopup(popup_b7137829ef51376316b4682427aaf114)
+        ;
+
+        
+    
+    
+            var marker_c64447375fa4611e319a96b3aa0e18f5 = L.marker(
+                [38.29, -122.37],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_584af6faa109db8ceaeaf2e35473beee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81ca0c7f26f483177f392d80b9c60c9d = $(`<div id="html_81ca0c7f26f483177f392d80b9c60c9d" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 38.29, -122.37<br>Idea: Napa Valley is close... maybe have a wine tastin sunday? <br>Notes: WINE</div></div>`)[0];
+                popup_584af6faa109db8ceaeaf2e35473beee.setContent(html_81ca0c7f26f483177f392d80b9c60c9d);
+            
+        
+
+        marker_c64447375fa4611e319a96b3aa0e18f5.bindPopup(popup_584af6faa109db8ceaeaf2e35473beee)
+        ;
+
+        
+    
+    
+            var marker_e1559863c8bdb6b2da4df40f53228a00 = L.marker(
+                [37.83, -122.4],
+                {}
+            ).addTo(map_d73bc50a2409b50a87ced5e6b5a70e79);
+        
+    
+        var popup_d8548cd107bf432c16dabf27cf5961c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51c8ba789aca7a742a10bfc96373123f = $(`<div id="html_51c8ba789aca7a742a10bfc96373123f" style="width: 100.0%; height: 100.0%;"><div style='font-size: 16px;'>Location: 37.83, -122.4<br>Idea: Golden Gate Bridge fahren :)<br>Notes: nan</div></div>`)[0];
+                popup_d8548cd107bf432c16dabf27cf5961c7.setContent(html_51c8ba789aca7a742a10bfc96373123f);
+            
+        
+
+        marker_e1559863c8bdb6b2da4df40f53228a00.bindPopup(popup_d8548cd107bf432c16dabf27cf5961c7)
+        ;
+
+        
+    
+</script>
+</html>
